@@ -9,11 +9,4 @@
 3. Can you spot the Comparator constructor call? Where is the class definition for the Comparator?
     * `new Comparator<Animal>()`
 
-    * class definition:
-
-        ```
-        @Override
-        public int compare(Animal a, Animal b){
-            return a.getLegs() - b.getLegs();
-        }
-        ```
+    * The class defination for compatator is located in the java.util.Comparator.
